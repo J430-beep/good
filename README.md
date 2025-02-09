@@ -73,7 +73,7 @@ Steps to reproduce the behavior:
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
-
+![Alt Text](path/to/your/image.png)
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
