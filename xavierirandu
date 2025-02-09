@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0044cc;
+            color: white;
+        }
+
+        .events, .assignments {
+            background-color: #fff;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .event, .assignment {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-info {
+            padding: 10px;
+            background-color: #eee;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .contact-info a {
+            color: #0044cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kipini High School Program</h1>
+        <p>Welcome to the official Kipini High School program page!</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Weekly Timetable</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Subject 1</th>
+                    <th>Subject 2</th>
+                    <th>Subject 3</th>
+                    <th>Subject 4</th>
+                    <th>Subject 5</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Math</td>
+                    <td>English</td>
+                    <td>Physics</td>
+                    <td>History</td>
+                    <td>CRE</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Math</td>
+                    <td>Biology</td>
+                    <td>History</td>
+                    <td>Geography</td>
+                    <td>Agriculture</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Kiswahili</td>
+                    <td>Math</td>
+                    <td>Chemistry</td>
+                    <td>Physical Education</td>
+                    <td>Bussiness</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Physics</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Geography</td>
+                    <td>CRE</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Math</td>
+                    <td>Art</td>
+                    <td>Literature</td>
+                    <td>Biology</td>
+                    <td>Biology</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming School Events</h2>
+            <div class="event">
+                <h3>Science Fair</h3>
+                <p><strong>Date:</strong> March 15, 2025</p>
+                <p><strong>Location:</strong> School Auditorium</p>
+                <p><strong>Description:</strong> Students showcase their science projects.</p>
+            </div>
+            <div class="event">
+                <h3>Interclasses</h3>
+                <p><strong>Date:</strong> April 10, 2025</p>
+                <p><strong>Location:</strong> School Playground</p>
+                <p><strong>Description:</strong> Competitive games and sports events for students.</p>
+            </div>
+            <div class="event">
+                <h3>Parent-Teacher Meeting</h3>
+                <p><strong>Date:</strong> February 25, 2025</p>
+                <p><strong>Location:</strong> School Hall</p>
+                <p><strong>Description:</strong> An opportunity for parents and teachers to discuss student progress.</p>
+            </div>
+        </section>
+
+        <section class="assignments">
+            <h2>Assignments</h2>
+            <div class="assignment">
+                <h3>Math Homework</h3>
+                <p><strong>Due:</strong> February 15, 2025</p>
+                <p><strong>Description:</strong> Complete the problems on pages 35-40 in your workbook.</p>
+            </div>
+            <div class="assignment">
+                <h3>English Essay</h3>
+                <p><strong>Due:</strong> February 20, 2025</p>
+                <p><strong>Description:</strong> Write a 500-word essay on your favorite book.</p>
+            </div>
+            <div class="assignment">
+                <h3>History Project</h3>
+                <p><strong>Due:</strong> March 5, 2025</p>
+                <p><strong>Description:</strong> Research a historical figure and present your findings.</p>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions, please contact the school:</p>
+            <ul>
+                <li><strong>Phone:</strong> (+254) 715-3235-42</li>
+                <li><strong>Email:</strong> <a href="mailto:info@school.com">kipinisec@school.com</a></li>
+                <li><strong>Address:</strong> Kipini Scondary School St, WITU, Kenya, 0004</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kipini Secondary School. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
