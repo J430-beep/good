@@ -1,4 +1,4 @@
-# [kipini sec]
+# [KIPINI SEC FORM FOUR SOUTH]
 
 ## Description
 home of champions
